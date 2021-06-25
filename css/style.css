@@ -1,0 +1,491 @@
+/* ---------common css start----------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+
+ .title {
+    text-align: center;
+}
+
+ .title h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+ .title p {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+    width: 425px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+/* ---------common css End----------- */
+
+/* ---------header css End----------- */
+
+header {
+    padding-bottom: 20px;
+}
+
+header .logo {
+    width: 20%;
+    margin-top: 15px;
+}
+
+header .nav-item {
+    width: 80%;
+    text-align: right;
+}
+
+header .nav-item ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header .nav-item ul li a {
+    display: inline-block;
+    color: #808080;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    margin-top: 22px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+header .nav-item ul li a:hover {
+    color: #8d414e;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* ---------header css End----------- */
+
+/* ---------banner css start----------- */
+
+#banner-part {
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.411);
+    color: #ffff;
+}
+
+#banner-part .overlay .text h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    padding-top: 87px;
+}
+
+#banner-part .overlay .text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffff;
+    width: 396px;
+    padding-top: 15px;
+}
+
+#banner-part .overlay .text a {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffff;
+    text-transform: uppercase;
+    background: #8d414e;
+    padding: 10px 15px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+/* ---------banner css End----------- *
+
+/* ---------work css start----------- */
+
+#work-part {
+    margin-bottom: 100px;
+}
+
+#work-part .main {
+    justify-content: space-between;
+}
+
+#work-part .work-item {
+    width: 20%;
+    height: 100px;
+    margin-top: 75px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#work-part .work-item p {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    margin-bottom: 75px;
+}
+
+#work-part .work-item:hover p {
+    color: #8d414e;
+}
+
+/* ---------work css End----------- */
+
+/* ---------learn css start----------- */
+
+#learn-part {
+    background: #fafafa;
+    margin-bottom: 100px;
+}
+
+#learn-part .main {
+    justify-content: space-between;
+}
+
+
+#learn-part .left {
+	width: 40%;
+	margin-top: 85px;
+	margin-bottom: 85px;
+	margin-left: 60px;
+}
+
+
+
+#learn-part .left h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+#learn-part .left p {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 10px;
+}
+
+#learn-part .left a {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffff;
+    text-transform: uppercase;
+    background: #8d414e;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
+#learn-part .Right {
+    width: 40%;
+    text-align: left;
+}
+
+#learn-part .Right .img{
+    margin-top: 46px;
+    margin-right: 20px;
+    position: relative;
+}
+
+#learn-part .Right .img img{
+    width: 100%;
+}
+
+#learn-part .Right .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.404);
+    color: #fff;
+}
+
+#learn-part .Right .img .overlay a{
+    font-size: 40px;
+	margin-top: 30%;
+	margin-left: 40%;
+	color: #ffff;
+}
+
+/* ---------learn css End----------- */
+
+/* ---------features css start----------- */
+
+#features-part{
+    margin-bottom: 200px;
+}
+
+#features-part .title {
+    margin-bottom: 40px;
+}
+
+#features-part .main{
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#features-part .main .item{
+    width: 33%;
+    text-align: center;
+    background: #f1f1f1;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    cursor: pointer;
+}
+
+#features-part .main .item i{
+    font-size: 50px;
+    margin-top: 43px;
+}
+
+#features-part .main .item h2{
+    padding-top: 25px;
+}
+
+#features-part .main .item p{
+    padding-top: 10px;
+    width: 178px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#features-part .main .item:hover{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+
+#features-part .main .item:hover i{
+    color: #8d414e;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#features-part .button{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#features-part .button a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: #000;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#features-part .button a:hover{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: #f1f1f1;
+    color: #8d414e;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+
+/* ---------features css End----------- */
+
+
+/* ---------contact css start----------- */
+
+#contact-part{
+    background: #090909;
+    margin-bottom: 200px;
+}
+
+#contact-part .main{
+    justify-content: space-between;
+}
+
+#contact-part .main .item{
+    width: 33%;
+    color: #ffff;
+}
+
+#contact-part .main .item .contact h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #9a3348;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+#contact-part .main .item .contact h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 40px;
+
+}
+
+#contact-part .main .item .contact h4 i{
+    font-size: 20px;
+    color: #9a3348;
+    margin-right: 10px;
+}
+
+#contact-part .main .item .contact .icon{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#contact-part .main .item .contact .icon i{
+    font-size: 40px;
+    margin-right: 10px;
+    color: #525a65;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#contact-part .main .item .contact .icon i:hover{
+    color: #9a3348;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#contact-part .main .item .link h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #9a3348;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+#contact-part .main .item .link ul li{
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#contact-part .main .item .link ul li:hover{
+    color: #9a3348;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+#contact-part .main .item .link ul li i{
+    margin-right: 10px;
+}
+
+#contact-part .main .item .our h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #9a3348;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+#contact-part .main .item .our button{
+    padding:10px 20px;
+    background: transparent;
+    border: 1px solid red;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* ---------contact css End----------- */
